@@ -1,0 +1,137 @@
+:root {
+    --azul-bebe: #a7c7e7;
+    --cinza-claro: #f0f0f0;
+    --azul-meianoite: #191970;
+    --branco: #ffffff;
+}
+
+body {
+    background-color: var(--cinza-claro);
+    color: var(--azul-meianoite);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+ul {
+    background-color: var(--azul-bebe);
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px 32px;
+    margin: 0;
+}
+
+a {
+    color: var(--azul-meianoite);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: var(--branco);
+}
+
+header {
+    background-color: var(--azul-bebe);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid var(--azul-meianoite);
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: var(--azul-meianoite);
+    margin: 10px 0;
+}
+
+main {
+    background-color: var(--branco);
+    padding: 40px 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--azul-meianoite);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+footer a {
+    color: var(--branco);
+    margin: 10px;
+    text-align: center;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--azul-bebe);
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+
+.container {
+    padding: 0 50px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid var(--azul-bebe);
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: var(--cinza-claro);
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    color: var(--azul-meianoite);
+    background-color: var(--azul-bebe);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--azul-meianoite);
+    color: var(--branco);
+}
