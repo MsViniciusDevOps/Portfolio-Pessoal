@@ -67,12 +67,40 @@ main {
 footer {
     background-color: var(--azul-meianoite);
     color: var(--branco);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 20px 0;
     margin-top: 40px;
 }
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--branco);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--azul-bebe);
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.social-links p {
+    margin: 0;
+    font-size: 14px;
+}
+
 
 footer img {
     width: 40px;
