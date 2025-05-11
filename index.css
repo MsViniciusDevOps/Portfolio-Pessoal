@@ -146,4 +146,23 @@ main ul li a {
 main ul li a:hover {
     color: var(--azul-bebe);
 }
+.project-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
 
+.project-list li {
+    margin-bottom: 12px;
+}
+
+.project-list a {
+    font-size: 16px;
+    color: var(--azul-meianoite);
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.project-list a:hover {
+    color: var(--azul-bebe);
+}
